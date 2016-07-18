@@ -219,7 +219,7 @@ public class SwipeDeck extends FrameLayout {
             //set the initial Y value so card appears from under the deck
             //newBottomChild.setY(paddingTop);
             addAndMeasureChild(newBottomChild);
-            nextAdapterCard++;
+            //nextAdapterCard++;
         }
         setupTopCard();
     }
